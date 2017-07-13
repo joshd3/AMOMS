@@ -6,6 +6,6 @@ Site Link: http://lwcsurvey.gatech.edu/amoms/index.php
 This capstone stone project was built alongside another partner.  
 Test accounts to access the site:
 
-testReceptionist : regalia
-testPatientAcctMgr : regalia
+testReceptionist : regalia |
+testPatientAcctMgr : regalia |
 testProvider : regalia
