@@ -1,0 +1,225 @@
+body {
+   background-color: #eeeeff;
+   color: #003366;
+}
+
+  .feedback {
+    border: solid 1px black;
+    background-color: #333333;
+    color: #ffffff;     
+  }
+
+
+#mainContent {
+    background-color: #d1d1e0;
+    margin: 20px;
+    padding: 10px;
+    min-width: 800px;
+    max-width: 1400px;
+    min-height: 1000px;
+}
+
+#title {
+  font-size: 1.5em;
+  font-weight: bold;
+  display: inline-block;
+  width: 15%;
+  text-align: center;
+}
+
+.inactive {
+  background-color: red;
+  color: #ffffff;
+  border-radius: 20px;
+  border: 2px solid black;
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+  width: 7%;
+  display: inline-block;
+}
+
+.active {
+  background-color: #8585ad;
+  color: #ffffff;
+  border-radius: 20px;
+  border: 2px solid black;
+  padding: 5px;
+  margin: 10px;
+  text-align: center;
+  width: 7%;
+  display: inline-block;
+}
+
+.button {
+  border-radius: 20px;
+  border: 2px solid black;
+  padding: 5px;
+  background-color: #adc2eb;
+  color: #ffffff;
+  margin: 10px;
+  text-align: center;
+  width: 7%;
+  display: inline-block;
+}
+
+a.buttonlink {
+   text-decoration: none;
+  color: #ffffff;
+}
+.hidden {
+  visibility: hidden;
+}
+.patientId, .patientName, .acctBalance {
+  width: 12em;
+  margin: 0em  1.5em;
+  padding: 5px;
+  background-color: #7094db;
+  color: #ffffff;
+  font-size: 1.2em;
+  font-weight: bold;
+  display: inline-block;
+  text-align: center;
+}
+
+.acctStatus {
+  margin: 0em 1.5em;
+  padding: 5px;
+  font-size: 1.2em;
+  background-color: #7094db;
+  color: #ffffff;
+  font-weight: bold;
+  display: inline-block;
+  text-align: center;
+}
+
+.acctStatus0 {
+  height: 1em;
+  font-size: 1.2em;
+
+  padding: 5px;
+  background-color: green;
+  color: #ffffff;
+  font-weight: bold;
+  display: inline-block;
+  text-align: center;
+}
+.acctStatus30 {
+  padding: 5px;
+  font-size: 1.2em;
+
+  background-color: yellow;
+  color: #000000;
+  font-weight: bold;
+  display: inline-block;
+  text-align: center;
+}
+.acctStatus60 {
+  padding: 5px;
+  background-color: orange;
+  color: #000000;
+  font-weight: bold;
+  display: inline-block;
+  text-align: center;
+}
+.acctStatus90 {
+  padding: 5px;
+  font-size: 1.2em;
+
+  background-color: red;
+  color: #ffffff;
+  font-weight: bold;
+  display: inline-block;
+  text-align: center;
+}
+.acctStatus120 {
+  padding: 5px;
+  font-size: 1.2em;
+
+  background-color: FireBrick;
+  color: #ffffff;
+  font-weight: bold;
+  display: inline-block;
+  text-align: center;
+}
+
+
+
+.userAdmin {
+  display: inline-block;
+
+}
+
+.treatment {
+  display: inline-block;
+}
+
+table {
+  border: solid 1px black;
+}
+tr {
+  border: solid 1px black;
+  margin: 1px;
+}
+td {
+  border: solid 1px black;
+  margin: 1px;
+  padding: 1px;
+}
+th {
+  background-color: #8585ad;
+  border: solid 1px black;
+  margin: 1px;
+  padding: 1px;
+}
+
+/*Calendar CSS */
+.sidebar {
+     border: solid 1px black;
+  text-align: center;
+  width: 240px;
+  float:left;
+  padding: 5px;
+  margin: 2px;
+}
+
+#calendar {
+    border: solid 1px black;
+  min-width:790px;
+  float:right;
+  padding: 5px;
+  margin: 2px;
+}
+.calendarTimeHide {
+  visibility: hidden;
+}
+.calendarNotAvailable {
+  background-color:orange;
+}
+.calendarApptScheduled {
+  background-color:GoldenRod;
+  color: #110011;
+}
+.calendarDefault  {
+  background-color:green;
+}
+
+.report {
+  border-radius: 20px;
+  border: 2px solid black;
+  padding: 4px;
+  background-color: #adc2eb;
+  color: #ffffff;
+  margin: 2px;
+  text-align: center;
+  width: 80%;
+  display: inline-block;
+}
+
+#report {
+    border: solid 1px black;
+  min-width:790px;
+  float:left;
+  padding: 5px;
+  margin: 2px;
+}
